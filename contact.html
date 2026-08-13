@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Schedule a private tour or ask about weddings, corporate events, retreats, and celebrations at 9 Acres Event Barn in Provo, Utah." />
+    <meta name="theme-color" content="#263129" />
+    <title>Contact & Tours | 9 Acres Event Barn</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body class="contact-page">
+    <a class="skip-link" href="#contact-main">Skip to inquiry form</a>
+    <header class="site-header is-on-dark" id="siteHeader">
+      <a class="brand" href="index.html#welcome" aria-label="9 Acres Event Barn home"><span class="brand-mark"><img src="assets/logo.png" alt="" /></span><span class="brand-name">9 Acres <small>Event Barn</small></span></a>
+      <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="mainNav"><span class="sr-only">Open navigation</span><span></span><span></span></button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation"><a href="index.html#venue">The Venue</a><a href="weddings.html">Weddings</a><a href="corporate.html">Corporate</a><a href="events.html">Events</a><a href="vendors.html">Vendors</a><a class="nav-cta" href="#contact-main" aria-current="page">Contact</a></nav>
+    </header>
+
+    <main id="contact-main">
+      <section class="contact-hero dark-panel" aria-labelledby="contact-title">
+        <img class="panel-image" src="assets/barn-front.webp" alt="9 Acres Event Barn beneath the Wasatch Mountains" /><div class="image-shade contact-hero-shade"></div>
+        <div class="contact-hero-copy"><p class="eyebrow">Tours by appointment</p><h1 id="contact-title">Come see<br /><em>the possibilities.</em></h1><p>Tell us what you are planning and we will help you take the next step. The team typically responds within 24–48 hours.</p><a class="button button-light" href="#inquiry">Start your inquiry</a></div>
+        <div class="contact-hero-details"><a href="tel:+13854127624">(385) 412-7624</a><a href="mailto:team@9acreseventbarn.com">team@9acreseventbarn.com</a><a href="https://www.google.com/maps/search/?api=1&amp;query=2531+W+280+S+Provo+UT+84601">2531 W 280 S · Provo, Utah</a></div>
+      </section>
+
+      <section class="inquiry-section" id="inquiry" aria-labelledby="inquiry-title">
+        <div class="inquiry-intro"><p class="eyebrow">Start here</p><h2 id="inquiry-title">What are you<br /><em>planning?</em></h2><p>Choose an event type and share the basics. This form is a design mockup; the final WordPress version can connect to the venue’s existing inquiry system.</p>
+          <div class="contact-facts"><article><span>01</span><h3>Private tours</h3><p>Appointment only, so every group has time and privacy to explore.</p></article><article><span>02</span><h3>Easy to reach</h3><p>One mile from Provo Airport and minutes from I-15 and downtown Provo.</p></article><article><span>03</span><h3>Room to gather</h3><p>Up to 175 seated indoors or 300 guests for an open-house reception.</p></article></div>
+        </div>
+
+        <form class="inquiry-form" id="inquiryForm">
+          <fieldset class="event-choice"><legend>Event type</legend>
+            <label id="wedding-inquiry"><input type="radio" name="event_type" value="Wedding" checked /><span>Wedding</span></label>
+            <label id="corporate-inquiry"><input type="radio" name="event_type" value="Corporate event" /><span>Corporate</span></label>
+            <label id="event-inquiry"><input type="radio" name="event_type" value="Celebration or retreat" /><span>Event / retreat</span></label>
+          </fieldset>
+          <div class="form-grid">
+            <label><span>Name</span><input type="text" name="name" autocomplete="name" required /></label>
+            <label><span>Email</span><input type="email" name="email" autocomplete="email" required /></label>
+            <label><span>Phone</span><input type="tel" name="phone" autocomplete="tel" /></label>
+            <label><span>Preferred date</span><input type="date" name="date" /></label>
+            <label><span>Estimated guests</span><input type="number" name="guests" min="1" max="300" inputmode="numeric" /></label>
+            <label><span>How can we help?</span><select name="interest"><option>Schedule a private tour</option><option>Request pricing</option><option>Check a date</option><option>Ask a question</option></select></label>
+            <label class="form-message"><span>Tell us about your event</span><textarea name="message" rows="5" placeholder="What would make this gathering feel special?"></textarea></label>
+          </div>
+          <button class="button button-dark" type="submit">Send inquiry</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="contact-paths" aria-label="Explore event options">
+        <a href="weddings.html"><span>Weddings</span><strong>From yes to I do.</strong><small>Explore weddings →</small></a>
+        <a href="corporate.html"><span>Corporate</span><strong>Take the team somewhere better.</strong><small>Explore corporate events →</small></a>
+        <a href="events.html"><span>Events &amp; retreats</span><strong>Bring everyone together.</strong><small>Explore gatherings →</small></a>
+      </section>
+    </main>
+
+    <footer class="contact-footer"><div><strong>9 Acres Event Barn</strong><span>At Finch Family Farm · Provo, Utah</span></div><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="weddings.html">Weddings</a><a href="corporate.html">Corporate</a><a href="events.html">Events</a><a href="vendors.html">Vendors</a><a href="https://www.instagram.com/9acreseventbarn/">Instagram</a></nav></footer>
+    <script src="contact.js"></script>
+  </body>
+</html>

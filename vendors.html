@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Preferred wedding and event vendors for 9 Acres Event Barn in Provo, Utah."
+    />
+    <meta name="theme-color" content="#263129" />
+    <title>Preferred Vendors | 9 Acres Event Barn</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vendors.css" />
+  </head>
+  <body class="vendors-page">
+    <a class="skip-link" href="#vendorDirectory">Skip to vendors</a>
+
+    <header class="site-header is-on-dark" id="siteHeader">
+      <a class="brand" href="index.html#welcome" aria-label="9 Acres Event Barn home">
+        <span class="brand-mark"><img src="assets/logo.png" alt="" /></span>
+        <span class="brand-name">9 Acres <small>Event Barn</small></span>
+      </a>
+
+      <button
+        class="menu-button"
+        id="menuButton"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mainNav"
+      >
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html#venue">The Venue</a>
+        <a href="index.html#spaces">Spaces</a>
+        <a href="weddings.html">Weddings</a>
+        <a href="corporate.html">Corporate</a>
+        <a href="events.html">Events</a>
+        <a href="#vendorDirectory" aria-current="page">Vendors</a>
+        <a class="nav-cta" href="contact.html">Schedule a tour</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="vendors-hero dark-panel" aria-labelledby="vendors-title">
+        <img
+          class="panel-image"
+          src="assets/couple.webp"
+          alt="A newly married couple walking together at 9 Acres Event Barn"
+        />
+        <div class="image-shade vendors-shade"></div>
+        <div class="vendors-hero-copy">
+          <p class="eyebrow">The people who bring the details together</p>
+          <h1 id="vendors-title">Trusted hands.<br /><em>Beautiful work.</em></h1>
+          <p>
+            Explore the caterers, artists, planners, photographers, rental
+            teams, and experience partners recommended by 9 Acres Event Barn.
+          </p>
+          <a class="button button-light" href="#vendorDirectory">Browse all vendors</a>
+        </div>
+        <div class="vendor-stats" aria-label="Vendor directory summary">
+          <span><strong>42</strong> listed partners</span>
+          <span><strong>13</strong> categories</span>
+          <span><strong>1</strong> easy directory</span>
+        </div>
+      </section>
+
+      <section class="vendor-directory" id="vendorDirectory" aria-labelledby="directory-title">
+        <div class="directory-intro">
+          <div>
+            <p class="eyebrow">Preferred vendor directory</p>
+            <h2 id="directory-title">Find your<br /><em>creative team.</em></h2>
+          </div>
+          <div class="directory-note">
+            <p>
+              For cooked food and sit-down meals, the venue requires an
+              approved preferred caterer. Confirm current availability,
+              pricing, and venue requirements directly with the 9 Acres team.
+            </p>
+            <a class="text-link" href="weddings.html#planning">Read venue FAQs <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="vendor-tools" aria-label="Filter vendors">
+          <label class="vendor-search">
+            <span class="sr-only">Search vendors</span>
+            <input id="vendorSearch" type="search" placeholder="Search by name or service" autocomplete="off" />
+          </label>
+          <p id="resultCount" aria-live="polite">Showing all 42 vendors</p>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Vendor categories">
+          <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-chip" type="button" data-filter="activities" aria-pressed="false">Activities</button>
+          <button class="filter-chip" type="button" data-filter="cakes" aria-pressed="false">Cakes</button>
+          <button class="filter-chip" type="button" data-filter="catering" aria-pressed="false">Catering</button>
+          <button class="filter-chip" type="button" data-filter="dresses" aria-pressed="false">Dresses</button>
+          <button class="filter-chip" type="button" data-filter="florists" aria-pressed="false">Florists</button>
+          <button class="filter-chip" type="button" data-filter="beauty" aria-pressed="false">Hair &amp; Makeup</button>
+          <button class="filter-chip" type="button" data-filter="music" aria-pressed="false">Music</button>
+          <button class="filter-chip" type="button" data-filter="photographers" aria-pressed="false">Photography</button>
+          <button class="filter-chip" type="button" data-filter="rentals" aria-pressed="false">Rentals</button>
+          <button class="filter-chip" type="button" data-filter="stationery" aria-pressed="false">Stationery &amp; Signage</button>
+          <button class="filter-chip" type="button" data-filter="travel" aria-pressed="false">Travel</button>
+          <button class="filter-chip" type="button" data-filter="video" aria-pressed="false">Video</button>
+          <button class="filter-chip" type="button" data-filter="planners" aria-pressed="false">Planners</button>
+        </div>
+
+        <div class="vendor-grid" id="vendorGrid">
+          <article class="vendor-card" data-category="activities" data-search="par-teeminigolf activity rentals mini golf">
+            <p>Activity rentals</p><h3>Par-teeminigolf</h3><a href="https://par-teeminigolf.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="activities" data-search="buck wild activity rentals mechanical bull">
+            <p>Activity rentals</p><h3>Buck Wild</h3><a href="https://buckwildbullriding.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="cakes" data-search="cakes by camryn cake artist bakery">
+            <p>Cake artist</p><h3>Cakes By Camryn</h3><a href="https://www.cakesbycamryn.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="cakes" data-search="cakes by alessandra cake artist bakery">
+            <p>Cake artist</p><h3>Cakes by Alessandra</h3><a href="https://cakeut.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="catering" data-search="culinary crafts catering food">
+            <p>Catering</p><h3>Culinary Crafts</h3><a href="https://culinarycrafts.com/?nab=0" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="marvellous catering food">
+            <p>Catering</p><h3>Marvellous Catering</h3><a href="https://www.marvellouscatering.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="utah celebrations catering food">
+            <p>Catering</p><h3>Utah Celebrations Catering</h3><a href="https://utahcelebrationscatering.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="copa bar service beverage alcohol catering">
+            <p>Catering · Bar service</p><h3>COPA</h3><a href="https://copabarservice.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="crisp catering food">
+            <p>Catering</p><h3>Crisp Catering</h3><a href="https://catercrisp.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="tasteful moments catering food">
+            <p>Catering</p><h3>Tasteful Moments Catering</h3><a href="https://tastefulmoments.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="the bar project slc beverage alcohol catering">
+            <p>Catering · Bar service</p><h3>The Bar Project</h3><a href="https://thebarprojectslc.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="pinguinos gelato dessert catering">
+            <p>Catering · Dessert</p><h3>Pinguinos Gelato</h3><a href="https://www.pinguinosgelato.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="catering" data-search="fueled coffee utah beverage catering">
+            <p>Catering · Coffee</p><h3>Fueled Coffee Utah</h3><a href="https://www.fueledcoffeeutah.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="dresses" data-search="fantasy bridal dress gown">
+            <p>Wedding dresses</p><h3>Fantasy Bridal</h3><a href="https://fantasy-bridal.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="florists" data-search="bloomique flower studio florist flowers">
+            <p>Florist</p><h3>Bloomique Flower Studio</h3><a href="https://bloomiquestudio.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="florists" data-search="red poppy flower co florist flowers">
+            <p>Florist</p><h3>Red Poppy Flower Co.</h3><a href="https://redpoppyflowerco.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="florists" data-search="wish blossom florist flowers">
+            <p>Florist</p><h3>Wish Blossom</h3><a href="https://wishblossomflowers.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="beauty" data-search="lesley lind makeup atelier hair makeup beauty">
+            <p>Hair &amp; makeup</p><h3>Lesley Lind Makeup Atelier</h3><a href="https://www.lesleylind.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="beauty" data-search="hair by rylee makeup beauty instagram">
+            <p>Hair &amp; makeup</p><h3>Hair by Rylee</h3><a href="https://www.instagram.com/hairby.rylee" target="_blank" rel="noopener">Visit Instagram <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="beauty" data-search="alyssa hall studios hair makeup beauty">
+            <p>Hair &amp; makeup</p><h3>Alyssa Hall Studios</h3><a href="https://alyssahallstudios.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="beauty" data-search="em purcell beauty hair makeup">
+            <p>Hair &amp; makeup</p><h3>Em Purcell Beauty</h3><a href="https://www.empurcellbeauty.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="music" data-search="dj jerry music entertainment disc jockey">
+            <p>Music &amp; entertainment</p><h3>DJ Jerry</h3><a href="https://djjerryutah.com" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="music" data-search="peak sound music entertainment dj">
+            <p>Music &amp; entertainment</p><h3>Peak Sound</h3><a href="https://www.peaksoundut.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="music" data-search="golden hour strings music entertainment live musicians">
+            <p>Music &amp; entertainment</p><h3>Golden Hour Strings</h3><a href="https://goldenhourstringsmusic.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="photographers" data-search="the champagne edit photographer photography">
+            <p>Photography</p><h3>The Champagne Edit</h3><a href="https://champagneedit.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="photographers" data-search="ali montemayor photography photographer">
+            <p>Photography</p><h3>Ali Montemayor Photography</h3><a href="https://alimontemayorphotography.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="photographers" data-search="true photography and video photographer">
+            <p>Photography</p><h3>True Photography and Video</h3><a href="https://www.truephotography.com" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="photographers" data-search="altalu films photography photographer">
+            <p>Photography</p><h3>Altalu</h3><a href="https://www.altalufilms.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="photographers" data-search="londsphoto photographer photography instagram">
+            <p>Photography</p><h3>LondsPhoto</h3><a href="https://www.instagram.com/londsphoto_/?hl=en" target="_blank" rel="noopener">Visit Instagram <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="rentals" data-search="all about you rentals event furniture decor">
+            <p>Event rentals</p><h3>All About You Rentals</h3><a href="https://www.allaboutyourentals.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="rentals" data-search="utah valley event rentals furniture decor">
+            <p>Event rentals</p><h3>Utah Valley Event Rentals</h3><a href="https://www.utahvalleyeventrentals.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="rentals" data-search="diamond rental event furniture decor">
+            <p>Event rentals</p><h3>Diamond Rental</h3><a href="https://diamondevent.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="rentals" data-search="indigo event rentals furniture decor">
+            <p>Event rentals</p><h3>Indigo Event Rentals</h3><a href="https://www.indigoutah.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="rentals" data-search="moon light rentals event furniture decor">
+            <p>Event rentals</p><h3>Moon Light</h3><a href="https://www.moonlightutah.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="rentals" data-search="vault event rentals furniture decor">
+            <p>Event rentals</p><h3>Vault Event Rentals</h3><a href="https://vaulteventrentals.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="stationery" data-search="letter press made stationery signage invitation printing">
+            <p>Stationery &amp; signage</p><h3>Letter Press Made</h3><a href="https://www.letterpressmade.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="stationery" data-search="haus of acrylics stationery signage acrylic">
+            <p>Stationery &amp; signage</p><h3>Haus of Acrylics</h3><a href="https://www.hausofacrylics.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="travel" data-search="cache express travel transportation accommodation shuttle">
+            <p>Transportation &amp; lodging</p><h3>Cache Express Travel</h3><a href="https://cacheexpresstravel.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="video" data-search="true photography and video videographer film">
+            <p>Videography</p><h3>True Photography and Video</h3><a href="https://www.truephotography.com" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="video" data-search="altalu films videographer video film">
+            <p>Videography</p><h3>Altalu</h3><a href="https://www.altalufilms.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+
+          <article class="vendor-card" data-category="planners" data-search="everson events wedding planner planning coordinator">
+            <p>Wedding planner</p><h3>Everson Events</h3><a href="https://www.eversonevents.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+          <article class="vendor-card" data-category="planners" data-search="union design events wedding planner planning coordinator">
+            <p>Wedding planner</p><h3>Union Design Events</h3><a href="https://www.uniondesignevents.com/" target="_blank" rel="noopener">Visit website <span>↗</span></a>
+          </article>
+        </div>
+
+        <div class="no-results" id="noResults" hidden>
+          <p>No vendors match that search.</p>
+          <button type="button" id="clearFilters">Clear filters</button>
+        </div>
+      </section>
+
+      <section class="vendor-cta dark-panel" aria-labelledby="vendor-cta-title">
+        <div>
+          <p class="eyebrow">Start with the place</p>
+          <h2 id="vendor-cta-title">Then build<br /><em>your team.</em></h2>
+        </div>
+        <div>
+          <p>
+            Walk the barn, see the ceremony settings, and talk through the
+            details with the venue team during a private appointment.
+          </p>
+          <a class="button button-light" href="contact.html">Schedule a tour</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="vendor-footer">
+      <div>
+        <a class="brand footer-brand" href="index.html#welcome">
+          <span class="brand-mark"><img src="assets/logo.png" alt="" /></span>
+          <span class="brand-name">9 Acres <small>Event Barn</small></span>
+        </a>
+        <address>
+          <a href="tel:+13854127624">(385) 412-7624</a>
+          <a href="mailto:team@9acreseventbarn.com">team@9acreseventbarn.com</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=2531+W+280+S+Provo+UT+84601">2531 W 280 S · Provo, UT 84601</a>
+        </address>
+      </div>
+      <nav class="footer-directory" aria-label="Website directory">
+        <a href="index.html">Home</a>
+        <a href="weddings.html">Weddings</a>
+        <a href="contact.html#wedding-inquiry">Wedding pricing</a>
+        <a href="events.html">Other events</a>
+        <a href="events.html#retreats">Retreats</a>
+        <a href="corporate.html">Corporate events</a>
+        <a href="index.html#story">About</a>
+        <a href="weddings.html#planning">FAQs</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://www.facebook.com/profile.php?id=61556126255534">Facebook</a>
+        <a href="https://www.instagram.com/9acreseventbarn/">Instagram</a>
+      </nav>
+      <p class="footer-copyright">© 9 Acres Event Barn · Finch Family Farm</p>
+    </footer>
+
+    <script src="vendors.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+.weddings-page { background: var(--paper); }
+.wedding-hero { color: white; }
+.wedding-hero-image { object-position: center 38%; animation: hero-drift 18s ease-in-out infinite alternate; }
+.wedding-hero-shade { background: linear-gradient(90deg, rgba(8,11,8,.95), rgba(8,11,8,.67) 55%, rgba(8,11,8,.3)), linear-gradient(0deg, rgba(8,11,8,.82), transparent 62%); }
+.wedding-hero-copy { position: relative; z-index: 2; width: min(950px,88vw); padding: clamp(10rem,21vh,14rem) 0 7rem; margin-left: clamp(1.5rem,9vw,10rem); }
+.wedding-hero-copy h1,.wedding-hero-copy .eyebrow,.experiences-copy h2,.experiences-copy .eyebrow { text-shadow: 0 3px 34px rgba(0,0,0,.94),0 1px 3px #000; }
+.wedding-hero-copy>p:not(.eyebrow),.experiences-copy>p:not(.eyebrow) { max-width: 650px; margin: 2rem 0 0; color: rgba(255,255,255,.97); font-weight: 500; line-height: 1.75; text-shadow: 0 2px 18px rgba(0,0,0,.95); }
+.wedding-hero-notes { position:absolute; z-index:2; right:5vw; bottom:3rem; display:flex; gap:2rem; color:rgba(255,255,255,.95); font-size:.57rem; font-weight:750; letter-spacing:.14em; text-shadow:0 2px 14px #000; text-transform:uppercase; }
+.ceremony-panel { display:grid; grid-template-columns:.8fr 1.2fr; align-items:center; gap:6vw; padding:8.5rem 6vw 4rem; }
+.ceremony-copy { max-width:650px; }
+.wedding-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin:2.5rem 0 0; padding:1.4rem 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.wedding-stats dt { font:400 clamp(1.8rem,2.7vw,2.8rem)/1 var(--serif); }
+.wedding-stats dd { margin:.5rem 0 0; color:#676d66; font-size:.56rem; letter-spacing:.09em; line-height:1.4; text-transform:uppercase; }
+.ceremony-gallery { min-height:70vh; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:.8rem; }
+.ceremony-gallery figure { position:relative; margin:0; overflow:hidden; background:var(--forest); }
+.ceremony-main { grid-row:1/-1; }
+.ceremony-gallery img { width:100%; height:100%; object-fit:cover; }
+.ceremony-gallery figcaption { position:absolute; left:.8rem; bottom:.8rem; padding:.55rem .7rem; color:white; background:rgba(10,14,11,.84); font-size:.54rem; font-weight:750; letter-spacing:.1em; text-transform:uppercase; }
+.included-panel { padding:8rem 6vw 4rem; }
+.included-heading { display:grid; grid-template-columns:.4fr 1.6fr; align-items:end; gap:4vw; }
+.included-heading .eyebrow { margin-bottom:.55rem; }
+.included-grid { display:grid; grid-template-columns:repeat(4,1fr); margin-top:3rem; border-top:1px solid rgba(255,255,255,.28); border-left:1px solid rgba(255,255,255,.28); }
+.included-grid article { min-height:350px; display:flex; flex-direction:column; padding:1.4rem; border-right:1px solid rgba(255,255,255,.28); border-bottom:1px solid rgba(255,255,255,.28); }
+.included-grid article>span { color:#d7c8b7; font-size:.56rem; letter-spacing:.13em; }
+.included-grid h3 { margin:auto 0 1.3rem; font:400 clamp(1.45rem,2vw,2rem)/1 var(--serif); }
+.included-grid ul { list-style:none; margin:0; padding:0; }
+.included-grid li { padding:.48rem 0; border-top:1px solid rgba(255,255,255,.14); color:rgba(255,255,255,.8); font-size:.61rem; letter-spacing:.08em; line-height:1.35; text-transform:uppercase; }
+.experiences-panel { color:white; }
+.experiences-panel .panel-image { object-position:center 48%; }
+.experiences-shade { background:linear-gradient(90deg,rgba(7,11,8,.96),rgba(7,11,8,.72) 55%,rgba(7,11,8,.32)),linear-gradient(0deg,rgba(7,11,8,.78),transparent 60%); }
+.experiences-copy { position:relative; z-index:2; width:min(820px,82vw); padding-top:clamp(9rem,17vh,13rem); margin-left:clamp(1.5rem,9vw,10rem); }
+.experience-list { display:flex; flex-wrap:wrap; gap:.55rem; margin:2rem 0; }
+.experience-list span { padding:.55rem .75rem; border:1px solid rgba(255,255,255,.55); background:rgba(7,11,8,.56); color:white; font-size:.55rem; font-weight:750; letter-spacing:.1em; text-transform:uppercase; }
+.planning-panel { height:auto!important; padding:8rem 6vw 5rem; background:var(--paper); }
+.planning-heading { display:grid; grid-template-columns:1.35fr .65fr; align-items:end; gap:6vw; }
+.planning-heading>p { max-width:500px; margin:0 0 .6rem; color:#5b615a; line-height:1.7; }
+.planning-cards { display:grid; grid-template-columns:repeat(3,1fr); margin-top:3rem; border-top:1px solid var(--line); border-left:1px solid var(--line); }
+.planning-cards article { min-height:220px; display:flex; flex-direction:column; padding:1.35rem; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+.planning-cards span { color:var(--clay); font-size:.55rem; letter-spacing:.12em; }
+.planning-cards h3 { margin:auto 0 .8rem; font:400 1.5rem/1 var(--serif); }
+.planning-cards p { margin:0; color:#5e645d; font-size:.76rem; line-height:1.6; }
+.wedding-contact-panel { display:grid; grid-template-columns:46% 54%; }
+.wedding-contact-image { min-height:100svh; }
+.wedding-contact-image img { width:100%; height:100%; object-fit:cover; }
+.wedding-contact-copy { align-self:center; padding:8rem clamp(2rem,7vw,8rem) 2rem; }
+.wedding-contact-copy>p:not(.eyebrow) { max-width:580px; margin:2rem 0 0; color:#565d55; line-height:1.75; }
+.wedding-mini-footer { display:flex; flex-wrap:wrap; gap:.7rem 1.3rem; margin-top:2.5rem; color:#70766e; font-size:.56rem; letter-spacing:.12em; text-transform:uppercase; }
+.wedding-mini-footer a { text-decoration:none; }
+@media(max-width:1100px){.weddings-page .main-nav{gap:1rem}.weddings-page .main-nav a{font-size:.57rem}.included-grid article{min-height:330px}}
+@media(max-width:900px){.wedding-hero-copy{width:auto;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:8rem 1.4rem 9rem;margin:0}.wedding-hero-notes{left:1.4rem;right:1.4rem;bottom:1.5rem;justify-content:space-between;gap:.5rem}.ceremony-panel,.wedding-contact-panel{grid-template-columns:1fr}.ceremony-panel,.included-panel,.planning-panel{padding:6.5rem 1.25rem 4.5rem}.ceremony-gallery{min-height:70svh}.included-heading,.planning-heading{grid-template-columns:1fr;gap:1.5rem}.included-grid{grid-template-columns:1fr 1fr}.planning-cards{grid-template-columns:1fr 1fr}.experiences-copy{width:auto;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:8rem 1.4rem 6rem;margin:0}.wedding-contact-image{min-height:55svh}.wedding-contact-copy{padding:5rem 1.4rem 2rem}}
+@media(max-width:560px){.wedding-hero-notes{font-size:.44rem}.wedding-stats{grid-template-columns:1fr}.wedding-stats div{display:flex;align-items:baseline;gap:1rem}.wedding-stats dd{margin:0}.ceremony-gallery{display:grid;grid-template-columns:1fr;grid-template-rows:repeat(3,50svh)}.ceremony-main{grid-row:auto}.included-grid,.planning-cards{grid-template-columns:1fr}.included-grid article{min-height:290px}}
